@@ -2,7 +2,7 @@
 	function get_db_connection(){
 		$servername = "localhost";
 		$username = "root";
-		$password = "";
+		$password = "root";
 		$dbname = "doctorpatientportal";
 
 		// Create connection
