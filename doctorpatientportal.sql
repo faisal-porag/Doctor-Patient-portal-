@@ -46,10 +46,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `user_name`, `password`, `first_name`, `last_name`, `gender`, `designation`, `email`, `address`, `contact_no`, `created_at`, `photo`) VALUES
-(1, 'Porag', 'porag1', 'Faisal', 'Porag', 'Male', 'Super admin', 'faisal.porag@yahoo.com', 'Khilkhet,Dhaka', '01741337720', '2016-08-19 20:57:49', NULL),
-(3, 'Parves', 'admin2', 'Nazmus', 'Sakib', 'Male', 'Admin', 'parves@gmail.com', 'Mirpur,Dhaka', '01723462142', '2016-08-19 20:59:48', NULL),
-(4, 'admin', 'admin', 'Admin', 'Admin', 'Male', 'Admin', 'admin@admin.com', 'Dhaka', '01721212112', '2016-08-19 21:15:36', NULL),
-(5, 'Newaj', '132', 'Newaj', 'Shuvo', 'Male', 'Admin', 'shahriar@hotmail.com', 'Khilkhet,Dhaka-1229', '01773758389', '2016-08-25 14:24:29', NULL);
+(1, 'Porag', 'porag1', 'Faisal', 'Porag', 'Male', 'Super admin', 'faisal.porag@yahoo.com', 'Khilkhet,Dhaka', '017xxxxxxxx', '2016-08-19 20:57:49', NULL);
 
 -- --------------------------------------------------------
 
@@ -210,10 +207,6 @@ CREATE TABLE `doctors` (
 
 INSERT INTO `doctors` (`id`, `first_name`, `last_name`, `user_name`, `password`, `gender`, `email`, `specialty`, `address`, `contact_no`, `created_at`, `education_qualification`, `experience`, `photo`, `is_active`, `visit_fees`) VALUES
 (3, 'Faisal', 'Porag', 'porag', '1234', 'Male', 'porag_faisal123@gmail.com', 'Cardiologist', 'Khilkhet,Dhaka, Bangladesh', '01741337720', '2016-08-20 22:35:04', NULL, 0, NULL, 1, 0),
-(4, 'Nazmus', 'Sakib', 'sakib', '1234', 'Male', 'parves@gmail.com', 'Emergency physician', 'Dhaka, Bangladesh', '01745236521', '2016-08-20 23:05:20', NULL, 0, NULL, 1, 0),
-(5, 'Newaj', 'Shahriar', 'shuvo', '12365', 'Male', 'shuvo@hotmail.com', 'Dentist', 'Khilkhet,Dhaka, Bangladesh', '01623542652', '2016-08-20 23:25:52', NULL, 0, NULL, 1, 0),
-(7, 'Fatema', 'Tuz', 'tuz', '3333', 'Female', 'fatema@gmail.com', 'Anesthesiologist', 'Khilkhet,Dhaka, Bangladesh', '01821452123', '2016-08-24 14:19:34', NULL, 0, NULL, 1, 0),
-(10, 'Kaniz', 'Fatima', 'Kanon', '', 'Female', 'kanon@gmail.com', 'Dentist', 'Rangpur, Bangladesh', '01714692976', '2016-08-30 21:04:46', NULL, 0, NULL, 1, 0),
 (11, 'Basirul', 'Islam', 'sourav', '', 'Male', 'basirul@gmail.com', 'Diabetologist', 'Rangpur, Bangladesh', '01923548521', '2016-08-30 21:07:35', NULL, 0, NULL, 1, 0);
 
 -- --------------------------------------------------------
